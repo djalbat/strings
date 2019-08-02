@@ -1,0 +1,7 @@
+Type String
+
+Constructor |String|:NaturalNumber
+
+Constructor String[...NaturalNumber]:String
+Constructor String[NaturalNumber...NaturalNumber]:String
+Constructor String[NaturalNumber...]:String

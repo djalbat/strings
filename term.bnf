@@ -1,0 +1,20 @@
+
+
+                       term  ::=  substring
+
+                               |  stringLength
+
+                               ;
+
+
+                  substring  ::=  name<NO_WHITESPACE>"[" "..." expression "]" 
+
+                               |  name<NO_WHITESPACE>"[" expression "..." expression "]" 
+
+                               |  name<NO_WHITESPACE>"[" expression "..."  "]" 
+
+                               ;
+
+
+               stringLength  ::=  "|" term "|" ;
+
