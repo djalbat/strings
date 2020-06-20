@@ -1,20 +1,13 @@
 
 
-                       term  ::=  substring
+                       term  ::=  name<NO_WHITESPACE>( ( "[" "..." expression "]" ) 
 
-                               |  stringLength
+                                                     | ( "[" expression "..." expression "]"  ) 
 
-                               ;
+                                                     | ( "[" expression "..."  "]" ) 
 
+                                                     )
 
-                  substring  ::=  name<NO_WHITESPACE>"[" "..." expression "]" 
-
-                               |  name<NO_WHITESPACE>"[" expression "..." expression "]" 
-
-                               |  name<NO_WHITESPACE>"[" expression "..."  "]" 
+                               |  "|" term "|"
 
                                ;
-
-
-               stringLength  ::=  "|" term "|" ;
-
