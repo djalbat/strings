@@ -1,6 +1,7 @@
 {
   "repository": "https://github.com/jecs-imperial/strings",
   "dependencies": [
-    "natural-numbers"
+    "natural-numbers",
+    "arithmetic"
   ]
 }
