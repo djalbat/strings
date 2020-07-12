@@ -1,6 +1,6 @@
 
 
-                       term  ::=  name<NO_WHITESPACE>( ( "[" "..." expression "]" ) 
+                       term  ::=  term<NO_WHITESPACE>( ( "[" "..." expression "]" ) 
 
                                                      | ( "[" expression "..." expression "]"  ) 
 
@@ -8,6 +8,6 @@
 
                                                      )
 
-                               |  "|" term "|"
+                               |  "|" expression "|"
 
                                ;
