@@ -1,8 +1,7 @@
 # Strings
 
-Strings for the [Occam](http://occam.science) proof assistant.
+Operational transformations for the [Concur algorithm](https://github.com/djalbat/concur-algorithm).
 
 ## Contact
 
-* james.smith@openmathematics.org
 * http://djalbat.com
