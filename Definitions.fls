@@ -12,5 +12,3 @@ Operator String < String
 Operator String > String
 Operator String <= String
 Operator String >= String
-
-Operator String = String
