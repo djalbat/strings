@@ -6,9 +6,9 @@ Constructor String[NaturalNumber...]:String
 Constructor String[NaturalNumber...NaturalNumber]:String
 Constructor String[...NaturalNumber]:String
 
-Operator String + String:String
+Combinator String + String:String
 
-Operator String < String
-Operator String > String
-Operator String <= String
-Operator String >= String
+Combinator String < String
+Combinator String > String
+Combinator String <= String
+Combinator String >= String
