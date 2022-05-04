@@ -2,6 +2,8 @@
   "repository": "https://github.com/djalbat/strings",
   "dependencies": [
     "natural-numbers",
-    "arithmetic"
+    "number-types",
+    "arithmetic",
+    "integers"
   ]
 }

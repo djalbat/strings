@@ -8,7 +8,7 @@ Constructor String[...NaturalNumber]:String
 
 Combinator String + String:String
 
-Combinator String < String
-Combinator String > String
-Combinator String <= String
-Combinator String >= String
+Comparator String < String
+Comparator String > String
+Comparator String <= String
+Comparator String >= String

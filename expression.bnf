@@ -1,0 +1,12 @@
+
+
+                   stringExpression  ::=  "(" stringExpression ")"
+
+                                       |  stringExpression "+" stringExpression 
+
+                                       |  stringTerm 
+
+                                       |  typeName 
+                       
+                                       ;   
+

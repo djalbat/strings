@@ -1,13 +1,22 @@
 
 
-                       term  ::=  term<NO_WHITESPACE>( ( "[" "..." expression "]" ) 
+                       term  ::=  stringTerm ;
 
-                                                     | ( "[" expression "..." expression "]"  ) 
 
-                                                     | ( "[" expression "..."  "]" ) 
+                 stringTerm  ::=  stringExpression<NO_WHITESPACE>( ( "[" "..." arithmeticExpression "]" ) 
 
-                                                     )
+                                                                 | ( "[" arithmeticExpression "..." arithmeticExpression "]"  ) 
 
-                               |  "|" expression "|"
+                                                                 | ( "[" arithmeticExpression "..." "]" ) 
+ 
+                                                                 )
 
-                               ;
+                               |  "\"\"" 
+
+                               |  typeName
+ 
+                               ; 
+
+
+              naturalNumber  ::=  "|" stringExpression "|" ;
+
