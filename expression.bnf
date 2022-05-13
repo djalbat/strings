@@ -1,8 +1,6 @@
 
 
-                   stringExpression  ::=  "(" stringExpression ")"
-
-                                       |  stringExpression "+" stringExpression 
+                   stringExpression  ::=  stringExpression "+" stringExpression 
 
                                        |  stringTerm 
 
