@@ -1,5 +1,9 @@
 
 
+                         expression  ::=  stringExpression ;
+
+
+
                    stringExpression  ::=  stringExpression "+" stringExpression 
 
                                        |  stringTerm 
