@@ -2,9 +2,9 @@ Type String
 
 Constructor |String|:NaturalNumber
 
-Constructor String[NaturalNumber...]:String
-Constructor String[NaturalNumber...NaturalNumber]:String
-Constructor String[...NaturalNumber]:String
+Combinator String[NaturalNumber...]:String
+Combinator String[NaturalNumber...NaturalNumber]:String
+Combinator String[...NaturalNumber]:String
 
 Combinator String + String:String
 

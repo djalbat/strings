@@ -4,7 +4,17 @@
 
 
 
-                   stringExpression  ::=  stringExpression "+" stringExpression 
+                   stringExpression  ::=  "(" stringExpression ")"
+
+                                       |  stringExpression "+" stringExpression 
+
+                                       |  stringExpression<NO_WHITESPACE>( ( "[" "..." arithmeticExpression "]" ) 
+
+                                                                         | ( "[" arithmeticExpression "..." arithmeticExpression "]"  ) 
+
+                                                                         | ( "[" arithmeticExpression "..." "]" ) 
+      
+                                                                         )
 
                                        |  stringTerm 
 

@@ -3,15 +3,7 @@
                        term  ::=  stringTerm ;
 
 
-                 stringTerm  ::=  stringExpression<NO_WHITESPACE>( ( "[" "..." arithmeticExpression "]" ) 
-
-                                                                 | ( "[" arithmeticExpression "..." arithmeticExpression "]"  ) 
-
-                                                                 | ( "[" arithmeticExpression "..." "]" ) 
- 
-                                                                 )
-
-                               |  [string-literal] 
+                 stringTerm  ::=  [string-literal] 
 
                                |  [name]
   
