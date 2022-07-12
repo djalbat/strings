@@ -1,6 +1,6 @@
 # Strings
 
-Strings for the [Concur algorithm](https://github.com/djalbat/concur-algorithm).
+Strings for for [Occam](https://occam.science).
 
 ## Contact
 
