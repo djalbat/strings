@@ -5,10 +5,10 @@
 
                  stringTerm  ::=  [string-literal] 
 
-                               |  [name]
+                               |  variable
   
                                ; 
 
 
-              naturalNumber  ::=  "|" stringExpression "|" ;
+              naturalNumber  ::=  "|" ( type | stringExpression ) "|" ;
 

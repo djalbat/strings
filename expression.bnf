@@ -1,24 +1,31 @@
 
 
-                         expression  ::=  stringExpression ;
+                     expression  ::=  stringExpression ;
 
 
+               stringExpression  ::=  "(" stringExpression ")"
 
-                   stringExpression  ::=  "(" stringExpression ")"
+                                   |  type "+" type
 
-                                       |  stringExpression "+" stringExpression 
+                                   |  type<NO_WHITESPACE>( ( "[" "..." type "]" ) 
 
-                                       |  stringExpression<NO_WHITESPACE>( ( "[" "..." arithmeticExpression "]" ) 
+                                                         | ( "[" type "..." type "]"  ) 
 
-                                                                         | ( "[" arithmeticExpression "..." arithmeticExpression "]"  ) 
-
-                                                                         | ( "[" arithmeticExpression "..." "]" ) 
+                                                         | ( "[" type  "..." "]" ) 
       
-                                                                         )
+                                                         )
 
-                                       |  stringTerm 
+                                   |  stringExpression "+" stringExpression 
 
-                                       |  [name]
-                       
-                                       ; 
+                                   |  stringExpression<NO_WHITESPACE>( ( "[" "..." arithmeticExpression "]" ) 
+
+                                                                     | ( "[" arithmeticExpression "..." arithmeticExpression "]"  ) 
+
+                                                                     | ( "[" arithmeticExpression "..." "]" ) 
+      
+                                                                     )
+
+                                   |  stringTerm 
+
+                                   ; 
 
