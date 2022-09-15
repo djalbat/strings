@@ -3,12 +3,20 @@
                        term  ::=  stringTerm ;
 
 
-                 stringTerm  ::=  [string-literal] 
+                 stringTerm  ::=  argument<NO_WHITESPACE>( ( "[" "..." argument "]" ) 
 
-                               |  variable
-  
+                                                         | ( "[" argument "..." argument "]"  ) 
+
+                                                         | ( "[" argument  "..." "]" ) 
+      
+                                                         )
+
+                               |  argument "+" argument 
+
+                               |  [string-literal] 
+
                                ; 
 
 
-              naturalNumber  ::=  "|" ( type | stringExpression ) "|" ;
+              naturalNumber  ::=  "|" argument "|" ;
 
