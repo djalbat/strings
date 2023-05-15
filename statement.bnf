@@ -1,9 +1,0 @@
-
-
-                         statement  ::=  type ( "<" | "<=" | ">=" | ">" ) type 
-
-                                      |  stringExpression ( "<" | "<=" | ">=" | ">" ) stringExpression
-
-                                      ;
-
-

@@ -1,9 +1,7 @@
 {
+  "version": "0.0.0",
   "repository": "https://github.com/djalbat/strings",
-  "dependencies": [
-    "natural-numbers",
-    "number-types",
-    "arithmetic",
-    "integers"
-  ]
+  "dependencies": {
+    "arithmetic": "0.0"
+  }
 }

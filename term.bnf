@@ -18,5 +18,5 @@
                                ; 
 
 
-              naturalNumber  ::=  "|" argument "|" ;
+             arithmeticTerm  ::=  "|" argument "|" ;
 
