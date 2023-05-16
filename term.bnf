@@ -1,9 +1,6 @@
 
 
-                       term  ::=  stringTerm ;
-
-
-                 stringTerm  ::=  argument<NO_WHITESPACE>( ( "[" "..." argument "]" ) 
+                       term  ::=  argument<NO_WHITESPACE>( ( "[" "..." argument "]" ) 
 
                                                          | ( "[" argument "..." argument "]"  ) 
 
@@ -13,10 +10,9 @@
 
                                |  argument "+" argument 
 
+                               |  "|" argument "|" 
+
                                |  [string-literal] 
 
                                ; 
-
-
-             arithmeticTerm  ::=  "|" argument "|" ;
 
