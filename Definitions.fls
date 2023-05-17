@@ -7,7 +7,6 @@ Constructor String[NaturalNumber...NaturalNumber]:String
 Constructor String[...NaturalNumber]:String
 
 Constructor String + String:String
-Constructor String + String:NaturalNumber
 
 Combinator String < String
 Combinator String > String
