@@ -1,7 +1,7 @@
 {
-  "version": "6.0.0",
+  "version": "6.0.1",
   "repository": "https://github.com/djalbat/strings",
   "dependencies": {
-    "arithmetic": "5.0"
+    "arithmetic": "6.0"
   }
 }
