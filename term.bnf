@@ -6,9 +6,9 @@
 
                                                          | ( "[" argument "..." "]" ) 
       
-                                                         )
+                                                         ) (20)
 
-                               |  "|" argument "|" 
+                               |  "|" argument "|"
 
                                |  [string-literal] 
 
