@@ -1,14 +1,13 @@
 Type String
 
-Constructor |String|:NaturalNumber
+Constructor |String|:ℕ
 
-Constructor String[NaturalNumber...]:String
-Constructor String[NaturalNumber...NaturalNumber]:String
-Constructor String[...NaturalNumber]:String
-
-Constructor String + String:String
+Constructor String[ℕ...]:String
+Constructor String[ℕ...ℕ]:String
+Constructor String[...ℕ]:String
 
 Combinator String < String
 Combinator String > String
 Combinator String ⩽ String
 Combinator String ⩾ String
+  
