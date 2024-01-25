@@ -11,3 +11,4 @@ Combinator String > String
 Combinator String ⩽ String
 Combinator String ⩾ String
   
+Constructor String + String:String
