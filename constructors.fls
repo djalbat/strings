@@ -1,14 +1,7 @@
-Type String
-
 Constructor |String|:ℕ
 
 Constructor String[ℕ...]:String
 Constructor String[ℕ...ℕ]:String
 Constructor String[...ℕ]:String
-
-Combinator String < String
-Combinator String > String
-Combinator String ⩽ String
-Combinator String ⩾ String
   
 Constructor String + String:String
