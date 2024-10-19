@@ -1,8 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": "https://github.com/djalbat/strings",
   "dependencies": {
-    "numbers": "2.0",
-    "inequality": "1.0"
+    "numbers": "3.0",
+    "inequality": "3.0"
   }
 }
