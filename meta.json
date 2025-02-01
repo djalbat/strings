@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "repository": "https://github.com/djalbat/strings",
   "dependencies": {
-    "numbers": "0.2",
+    "numbers": "0.0",
     "inequality": "0.0"
   }
 }
