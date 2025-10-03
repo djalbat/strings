@@ -1,7 +1,7 @@
-Constructor |String|:ℕ
+Constructor |𝗦𝘁𝗿𝗶𝗻𝗴|:ℕ
 
-Constructor String[ℕ...]:String
-Constructor String[ℕ...ℕ]:String
-Constructor String[...ℕ]:String
+Constructor 𝗦𝘁𝗿𝗶𝗻𝗴[ℕ...]:𝗦𝘁𝗿𝗶𝗻𝗴
+Constructor 𝗦𝘁𝗿𝗶𝗻𝗴[ℕ...ℕ]:𝗦𝘁𝗿𝗶𝗻𝗴
+Constructor 𝗦𝘁𝗿𝗶𝗻𝗴[...ℕ]:𝗦𝘁𝗿𝗶𝗻𝗴
   
-Constructor String + String:String
+Constructor 𝗦𝘁𝗿𝗶𝗻𝗴 + 𝗦𝘁𝗿𝗶𝗻𝗴:𝗦𝘁𝗿𝗶𝗻𝗴
